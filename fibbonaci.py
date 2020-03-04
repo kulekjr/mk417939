@@ -9,7 +9,7 @@ def fib_it(x):
     tmp = a
     a = b
     b = b + tmp
-  return b
+  return a
   
 def fib_rek(x):
   if x<=2:
