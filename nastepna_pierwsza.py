@@ -1,6 +1,6 @@
 import math as m
 
-n = int(input("Podaj liczbe: "))
+a = int(input("Podaj liczbe: "))
 
 def pierwsza(x):
     a = True
@@ -10,9 +10,19 @@ def pierwsza(x):
             break
     return a
 
-while(True):
-    if pierwsza(n):
-        print(n)
-        break
-    else:
-        n += 1
+def nastepna_pierwsza(n):
+    while(True):
+        if pierwsza(n):
+            print(n)
+            break
+        else:
+            n += 1
+    return n
+        
+def zmierz(f,n=100):
+    t0=t.time()
+    w=f(n)
+    t1=t.time()
+return t1-t0
+
+print(zmierz(a))
