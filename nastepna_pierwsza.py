@@ -23,6 +23,6 @@ def zmierz(f,n=100):
     t0=t.time()
     w=f(n)
     t1=t.time()
-return t1-t0
+    return t1-t0
 
 print(zmierz(a))
