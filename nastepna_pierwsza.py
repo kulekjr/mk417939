@@ -24,4 +24,4 @@ def zmierz(f,n=100):
     t1=t.time()
     return t1-t0
 
-print(zmierz(nastepna_pierwsza()))
+print(zmierz(nastepna_pierwsza))
