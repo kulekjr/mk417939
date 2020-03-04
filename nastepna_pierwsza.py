@@ -1,6 +1,5 @@
 import math as m
-
-a = int(input("Podaj liczbe: "))
+import time as t
 
 def pierwsza(x):
     a = True
@@ -25,4 +24,4 @@ def zmierz(f,n=100):
     t1=t.time()
     return t1-t0
 
-print(zmierz(a))
+print(zmierz(nastepna_pierwsza()))
