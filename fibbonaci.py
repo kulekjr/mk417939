@@ -15,7 +15,7 @@ def fib_rek(x):
   if x<=2:
     return 1
   else:
-    return fib(x-1) + fib(x-2)
+    return fib_rek(x-1) + fib_rek(x-2)
 
 t_p = t.time()
 print(fib_it(n))
